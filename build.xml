@@ -28,7 +28,7 @@
 		<jar jarfile="${dist.dir}/${projectName}.jar" basedir="${build.dir}" >
 		    <manifest>
 			<!-- Create an executable Jar -->
-			<attribute name="Main-Class" value="com.release.control.ant.PrintPrimeNumbers"/>
+			<attribute name="Main-Class" value="com.jenkins.ci.GeneratePrimeNumbers"/>
 		    </manifest>
 		</jar>
 	</target>
