@@ -25,7 +25,7 @@ public class GeneratePrimeNumbers {
 	   int maxInt = s.nextInt();
       
 	   //printing all primer numbers inside the max number
-	   System.out.println("Printing prime numbers up to " + maxInt);
+	   //System.out.println("Printing prime numbers up to " + maxInt);
 	   for(int number = 2; number<=maxInt; number++){
 		   //print prime numbers only
 		   if(isPrime(number)){
