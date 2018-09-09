@@ -5,7 +5,7 @@ import java.util.Scanner;
 public class GeneratePrimeNumbers {
 	
 	//Create scanner variable s
-	//private static Scanner s;
+	private static Scanner s;
 
 	public static boolean isPrime(int n){
 		//Check if a number is not divisible by any number other than 1 and itself
