@@ -4,6 +4,7 @@ import java.util.Scanner;
 
 public class GeneratePrimeNumbers {
 	
+	//Create scanner variable s
 	private static Scanner s;
 
 	public static boolean isPrime(int n){
