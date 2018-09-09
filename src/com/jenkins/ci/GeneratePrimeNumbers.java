@@ -5,7 +5,7 @@ import java.util.Scanner;
 public class GeneratePrimeNumbers {
 	
 	//Create scanner variable s
-	private static Scanner s;
+	//private static Scanner s;
 
 	public static boolean isPrime(int n){
 		//Check if a number is not divisible by any number other than 1 and itself
@@ -18,6 +18,7 @@ public class GeneratePrimeNumbers {
 		return true; 
    }
 	
+	
    public static void main(String args[]) {
 	   //get input - an integer
 	   System.out.println("Please input an integer number between 1 and 50: ");
@@ -25,7 +26,7 @@ public class GeneratePrimeNumbers {
 	   int maxInt = s.nextInt();
       
 	   //printing all primer numbers inside the max number
-	   //System.out.println("Printing prime numbers up to " + maxInt);
+	   System.out.println("Printing prime numbers up to " + maxInt);
 	   for(int number = 2; number<=maxInt; number++){
 		   //print prime numbers only
 		   if(isPrime(number)){
