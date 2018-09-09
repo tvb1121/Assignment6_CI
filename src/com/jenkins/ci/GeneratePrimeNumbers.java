@@ -19,7 +19,7 @@ public class GeneratePrimeNumbers {
 	
    public static void main(String args[]) {
 	   //get input - an integer
-	   System.out.println("Please input an integer number: ");
+	   System.out.println("Please input an integer number between 1 and 50: ");
 	   s = new Scanner(System.in);
 	   int maxInt = s.nextInt();
       
